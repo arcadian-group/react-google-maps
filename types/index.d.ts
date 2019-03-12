@@ -262,6 +262,7 @@ declare module 'react-google-maps/lib/components/GoogleMap' {
         panBy(x: number, y: number): void
         panTo(latLng: google.maps.LatLng | google.maps.LatLngLiteral): void
         panToBounds(latLngBounds: google.maps.LatLngBounds | google.maps.LatLngBoundsLiteral): void
+        setZoom(zoom: number): void
         getBounds(): google.maps.LatLngBounds
         getCenter(): google.maps.LatLng
         getClickableIcons(): boolean
