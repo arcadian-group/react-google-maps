@@ -37851,7 +37851,7 @@
         {
           name: "getBounds",
           docblock:
-            "Gets the `LatLngBounds` of this Circle.\n@type LatLngBoundsLatLngBounds\n@public",
+            "Gets the `LatLngBounds` of this Circle.\n@type LatLngBounds\n@public",
           modifiers: [],
           params: [],
           returns: null,
@@ -38099,7 +38099,7 @@
         {
           name: "getPanel",
           docblock:
-            "Returns the panel `<div>` in which the `DirectionsResult` is rendered.\n@type Node<div>DirectionsResult\n@public",
+            "Returns the panel `<div>` in which the `DirectionsResult` is rendered.\n@type Node\n@public",
           modifiers: [],
           params: [],
           returns: null,
@@ -38110,7 +38110,7 @@
         {
           name: "getRouteIndex",
           docblock:
-            "Returns the current (zero-based) route index in use by this `DirectionsRenderer` object.\n@type numberDirectionsRenderer\n@public",
+            "Returns the current (zero-based) route index in use by this `DirectionsRenderer` object.\n@type number\n@public",
           modifiers: [],
           params: [],
           returns: null,
@@ -38326,9 +38326,28 @@
           },
         },
         {
+          name: "setZoom",
+          docblock:
+            "@see https://developers.google.com/maps/documentation/javascript/3.exp/reference#Map\n@public",
+          modifiers: [],
+          params: [{ name: "...args" }],
+          returns: null,
+          description: null,
+          tags: {
+            see: [
+              {
+                title: "see",
+                description:
+                  "https://developers.google.com/maps/documentation/javascript/3.exp/reference#Map",
+              },
+            ],
+            public: [{ title: "public", description: null }],
+          },
+        },
+        {
           name: "getBounds",
           docblock:
-            "Returns the lat/lng bounds of the current viewport. If more than one copy of the world is visible, the bounds range in longitude from -180 to 180 degrees inclusive. If the map is not yet initialized (i.e. the mapType is still null), or center and zoom have not been set then the result is `null` or `undefined`.\n@type LatLngBoundsnullundefined\n@public",
+            "Returns the lat/lng bounds of the current viewport. If more than one copy of the world is visible, the bounds range in longitude from -180 to 180 degrees inclusive. If the map is not yet initialized (i.e. the mapType is still null), or center and zoom have not been set then the result is `null` or `undefined`.\n@type LatLngBounds\n@public",
           modifiers: [],
           params: [],
           returns: null,
@@ -38339,7 +38358,7 @@
         {
           name: "getCenter",
           docblock:
-            "Returns the position displayed at the center of the map. Note that this `LatLng` object is _not_ wrapped. See `[LatLng](#LatLng)` for more information.\n@type LatLngLatLngLatLng\n@public",
+            "Returns the position displayed at the center of the map. Note that this `LatLng` object is _not_ wrapped. See `[LatLng](#LatLng)` for more information.\n@type LatLng\n@public",
           modifiers: [],
           params: [],
           returns: null,
@@ -38390,7 +38409,7 @@
         {
           name: "getProjection",
           docblock:
-            "Returns the current `Projection`. If the map is not yet initialized (i.e. the mapType is still null) then the result is null. Listen to `projection_changed` and check its value to ensure it is not null.\n@type ProjectionProjectionprojection_changed\n@public",
+            "Returns the current `Projection`. If the map is not yet initialized (i.e. the mapType is still null) then the result is null. Listen to `projection_changed` and check its value to ensure it is not null.\n@type Projection\n@public",
           modifiers: [],
           params: [],
           returns: null,
@@ -38401,7 +38420,7 @@
         {
           name: "getStreetView",
           docblock:
-            "Returns the default `StreetViewPanorama` bound to the map, which may be a default panorama embedded within the map, or the panorama set using `setStreetView()`. Changes to the map's `streetViewControl` will be reflected in the display of such a bound panorama.\n@type StreetViewPanoramaStreetViewPanoramasetStreetView()streetViewControl\n@public",
+            "Returns the default `StreetViewPanorama` bound to the map, which may be a default panorama embedded within the map, or the panorama set using `setStreetView()`. Changes to the map's `streetViewControl` will be reflected in the display of such a bound panorama.\n@type StreetViewPanorama\n@public",
           modifiers: [],
           params: [],
           returns: null,
@@ -38412,7 +38431,7 @@
         {
           name: "getTilt",
           docblock:
-            "Returns the current angle of incidence of the map, in degrees from the viewport plane to the map plane. The result will be `0` for imagery taken directly overhead or `45` for 45° imagery. 45° imagery is only available for `satellite` and `hybrid` map types, within some locations, and at some zoom levels. **Note:** This method does not return the value set by `setTilt`. See `setTilt` for details.\n@type number045satellitehybridsetTiltsetTilt\n@public",
+            "Returns the current angle of incidence of the map, in degrees from the viewport plane to the map plane. The result will be `0` for imagery taken directly overhead or `45` for 45° imagery. 45° imagery is only available for `satellite` and `hybrid` map types, within some locations, and at some zoom levels. **Note:** This method does not return the value set by `setTilt`. See `setTilt` for details.\n@type number\n@public",
           modifiers: [],
           params: [],
           returns: null,
@@ -38640,12 +38659,6 @@
           description: "function",
           tags: {},
         },
-        onResize: {
-          type: { name: "func" },
-          required: !1,
-          description: "function",
-          tags: {},
-        },
         onTiltChanged: {
           type: { name: "func" },
           required: !1,
@@ -38689,7 +38702,7 @@
         {
           name: "getBounds",
           docblock:
-            "Gets the `LatLngBounds` of this overlay.\n@type LatLngBoundsLatLngBounds\n@public",
+            "Gets the `LatLngBounds` of this overlay.\n@type LatLngBounds\n@public",
           modifiers: [],
           params: [],
           returns: null,
@@ -39131,15 +39144,6 @@
           tags: {},
         },
         {
-          name: "getPlace",
-          docblock: "@type MarkerPlace\n@public",
-          modifiers: [],
-          params: [],
-          returns: null,
-          description: null,
-          tags: {},
-        },
-        {
           name: "getPosition",
           docblock: "@type LatLng\n@public",
           modifiers: [],
@@ -39248,12 +39252,6 @@
           description: "",
           tags: {},
         },
-        defaultPlace: {
-          type: { name: "any" },
-          required: !1,
-          description: "",
-          tags: {},
-        },
         defaultPosition: {
           type: { name: "any" },
           required: !1,
@@ -39327,12 +39325,6 @@
           tags: {},
         },
         options: {
-          type: { name: "any" },
-          required: !1,
-          description: "",
-          tags: {},
-        },
-        place: {
           type: { name: "any" },
           required: !1,
           description: "",
@@ -39525,7 +39517,7 @@
         {
           name: "getPanes",
           docblock:
-            "Returns the panes in which this OverlayView can be rendered. The panes are not initialized until `onAdd` is called by the API.\n@type MapPanesonAdd\n@public",
+            "Returns the panes in which this OverlayView can be rendered. The panes are not initialized until `onAdd` is called by the API.\n@type MapPanes\n@public",
           modifiers: [],
           params: [],
           returns: null,
@@ -39536,7 +39528,7 @@
         {
           name: "getProjection",
           docblock:
-            "Returns the `MapCanvasProjection` object associated with this `OverlayView`. The projection is not initialized until `onAdd` is called by the API.\n@type MapCanvasProjectionMapCanvasProjectionOverlayViewonAdd\n@public",
+            "Returns the `MapCanvasProjection` object associated with this `OverlayView`. The projection is not initialized until `onAdd` is called by the API.\n@type MapCanvasProjection\n@public",
           modifiers: [],
           params: [],
           returns: null,
@@ -40302,7 +40294,7 @@
         {
           name: "getPhotographerPov",
           docblock:
-            "Returns the heading and pitch of the photographer when this panorama was taken. For Street View panoramas on the road, this also reveals in which direction the car was travelling. This data is available after the `pano_changed` event.\n@type StreetViewPovpano_changed\n@public",
+            "Returns the heading and pitch of the photographer when this panorama was taken. For Street View panoramas on the road, this also reveals in which direction the car was travelling. This data is available after the `pano_changed` event.\n@type StreetViewPov\n@public",
           modifiers: [],
           params: [],
           returns: null,
@@ -40313,7 +40305,7 @@
         {
           name: "getPosition",
           docblock:
-            "Returns the current `LatLng` position for the Street View panorama.\n@type LatLngLatLng\n@public",
+            "Returns the current `LatLng` position for the Street View panorama.\n@type LatLng\n@public",
           modifiers: [],
           params: [],
           returns: null,
@@ -40335,7 +40327,7 @@
         {
           name: "getStatus",
           docblock:
-            "Returns the status of the panorama on completion of the `setPosition()` or `setPano()` request.\n@type StreetViewStatussetPosition()setPano()\n@public",
+            "Returns the status of the panorama on completion of the `setPosition()` or `setPano()` request.\n@type StreetViewStatus\n@public",
           modifiers: [],
           params: [],
           returns: null,
@@ -40346,7 +40338,7 @@
         {
           name: "getVisible",
           docblock:
-            "Returns `true` if the panorama is visible. It does not specify whether Street View imagery is available at the specified position.\n@type booleantrue\n@public",
+            "Returns `true` if the panorama is visible. It does not specify whether Street View imagery is available at the specified position.\n@type boolean\n@public",
           modifiers: [],
           params: [],
           returns: null,
@@ -40997,15 +40989,6 @@
           tags: {},
         },
         {
-          name: "getPlace",
-          docblock: "@type MarkerPlace\n@public",
-          modifiers: [],
-          params: [],
-          returns: null,
-          description: null,
-          tags: {},
-        },
-        {
           name: "getPosition",
           docblock: "@type LatLng\n@public",
           modifiers: [],
@@ -41186,12 +41169,6 @@
           description: "",
           tags: {},
         },
-        defaultPlace: {
-          type: { name: "any" },
-          required: !1,
-          description: "",
-          tags: {},
-        },
         defaultPosition: {
           type: { name: "any" },
           required: !1,
@@ -41265,12 +41242,6 @@
           tags: {},
         },
         options: {
-          type: { name: "any" },
-          required: !1,
-          description: "",
-          tags: {},
-        },
-        place: {
           type: { name: "any" },
           required: !1,
           description: "",
@@ -41463,7 +41434,7 @@
         {
           name: "getDrawingMode",
           docblock:
-            "Returns the `DrawingManager`'s drawing mode.\n@type OverlayTypeDrawingManager\n@public",
+            "Returns the `DrawingManager`'s drawing mode.\n@type OverlayType\n@public",
           modifiers: [],
           params: [],
           returns: null,
@@ -41575,7 +41546,7 @@
         {
           name: "getPlaces",
           docblock:
-            "Returns the query selected by the user, or `null` if no places have been found yet, to be used with `places_changed` event.\n@type Array<PlaceResult>nullplaces_changed\n@public",
+            "Returns the query selected by the user, or `null` if no places have been found yet, to be used with `places_changed` event.\n@type Array<PlaceResult>\n@public",
           modifiers: [],
           params: [],
           returns: null,
@@ -41659,7 +41630,7 @@
         {
           name: "getPlaces",
           docblock:
-            "Returns the query selected by the user, or `null` if no places have been found yet, to be used with `places_changed` event.\n@type Array<PlaceResult>nullplaces_changed\n@public",
+            "Returns the query selected by the user, or `null` if no places have been found yet, to be used with `places_changed` event.\n@type Array<PlaceResult>\n@public",
           modifiers: [],
           params: [],
           returns: null,
@@ -41793,7 +41764,7 @@
   ) {
     e.exports = {
       config: {
-        title: "React Google Maps Style Guide",
+        title: "Arcadian Digital React Google Maps Style Guide",
         highlightTheme: "base16-light",
         showCode: !0,
         showUsage: !0,
@@ -44939,6 +44910,13 @@
               return (e = this.context[c.l]).panToBounds.apply(e, arguments)
             },
           },
+          {
+            key: "setZoom",
+            value: function setZoom() {
+              var e
+              return (e = this.context[c.l]).setZoom.apply(e, arguments)
+            },
+          },
         ])
       function Map(e, t) {
         !(function _classCallCheck(e, t) {
@@ -45087,7 +45065,6 @@
         onHeadingChanged: l.a.func,
         onIdle: l.a.func,
         onProjectionChanged: l.a.func,
-        onResize: l.a.func,
         onTiltChanged: l.a.func,
         onZoomChanged: l.a.func,
       }),
@@ -45123,7 +45100,6 @@
         onHeadingChanged: "heading_changed",
         onIdle: "idle",
         onProjectionChanged: "projection_changed",
-        onResize: "resize",
         onTiltChanged: "tilt_changed",
         onZoomChanged: "zoom_changed",
       },
@@ -45926,12 +45902,6 @@
             },
           },
           {
-            key: "getPlace",
-            value: function getPlace() {
-              return this.state[u.m].getPlace()
-            },
-          },
-          {
             key: "getPosition",
             value: function getPosition() {
               return this.state[u.m].getPosition()
@@ -45975,7 +45945,6 @@
       defaultLabel: a.a.any,
       defaultOpacity: a.a.number,
       defaultOptions: a.a.any,
-      defaultPlace: a.a.any,
       defaultPosition: a.a.any,
       defaultShape: a.a.any,
       defaultTitle: a.a.string,
@@ -45989,7 +45958,6 @@
       label: a.a.any,
       opacity: a.a.number,
       options: a.a.any,
-      place: a.a.any,
       position: a.a.any,
       shape: a.a.any,
       title: a.a.string,
@@ -46070,9 +46038,6 @@
         },
         options: function options(e, t) {
           e.setOptions(t)
-        },
-        place: function place(e, t) {
-          e.setPlace(t)
         },
         position: function position(e, t) {
           e.setPosition(t)
@@ -47986,12 +47951,6 @@
             },
           },
           {
-            key: "getPlace",
-            value: function getPlace() {
-              return this.state[h.o].getPlace()
-            },
-          },
-          {
             key: "getPosition",
             value: function getPosition() {
               return this.state[h.o].getPosition()
@@ -48040,7 +47999,6 @@
       defaultLabel: a.a.any,
       defaultOpacity: a.a.number,
       defaultOptions: a.a.any,
-      defaultPlace: a.a.any,
       defaultPosition: a.a.any,
       defaultShape: a.a.any,
       defaultTitle: a.a.string,
@@ -48054,7 +48012,6 @@
       label: a.a.any,
       opacity: a.a.number,
       options: a.a.any,
-      place: a.a.any,
       position: a.a.any,
       shape: a.a.any,
       title: a.a.string,
@@ -48147,9 +48104,6 @@
         },
         options: function options(e, t) {
           e.setOptions(t)
-        },
-        place: function place(e, t) {
-          e.setPlace(t)
         },
         position: function position(e, t) {
           e.setPosition(t)
