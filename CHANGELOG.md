@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="9.5.0"></a>
+# [9.5.0](https://github.com/arcadian-group/react-google-maps/compare/v9.4.5...v9.5.0) (2019-03-12)
+
+
+### Bug Fixes
+
+* **build:** Fix build issues caused by updated Google Maps docs ([d7c47c1](https://github.com/arcadian-group/react-google-maps/commit/d7c47c1)), closes [tomchentw/react-google-maps#952](https://github.com/tomchentw/react-google-maps/issues/952)
+
+
+### Features
+
+* **GoogleMap:** add setZoom method ([1bc1420](https://github.com/arcadian-group/react-google-maps/commit/1bc1420))
+
+
+
 <a name="9.4.5"></a>
 ## [9.4.5](https://github.com/tomchentw/react-google-maps/compare/v9.4.4...v9.4.5) (2018-01-05)
 
