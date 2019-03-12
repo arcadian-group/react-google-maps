@@ -1,5 +1,5 @@
 {
-  "name": "react-google-maps",
+  "name": "@arcadian-digital/react-google-maps",
   "version": "9.4.5",
   "description": "React.js Google Maps integration component",
   "license": "MIT",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomchentw/react-google-maps"
+    "url": "https://github.com/arcadian-group/react-google-maps"
   },
   "bugs": {
-    "url": "https://github.com/tomchentw/react-google-maps/issues"
+    "url": "https://github.com/arcadian-group/react-google-maps/issues"
   },
   "homepage": "https://tomchentw.github.io/react-google-maps/",
   "main": "lib/index.js",
