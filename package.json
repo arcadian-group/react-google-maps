@@ -110,7 +110,7 @@
     "prop-types": "^15.5.8",
     "recompose": "^0.26.0",
     "scriptjs": "^2.5.8",
-    "warning": "^3.0.0"
+    "warning": "^4.0.3"
   },
   "peerDependencies": {
     "react": "^15.0.0 || ^16.0.0",
