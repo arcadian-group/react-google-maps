@@ -5,12 +5,14 @@ node_js:
 - '6'
 - '8'
 - '10'
-before_script:
+# before_script:
 # - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
 # - chmod +x ./cc-test-reporter
 # - "./cc-test-reporter before-build"
-- npm run build:src
 script:
+- npm run build:src
+- npm run build:lib
+- npm run styleguide:build
 - npm test -- --coverage
 # after_script:
 # - if [[ "$TRAVIS_PULL_REQUEST" == "false" && `node --version` == *v8* ]]; then ./cc-test-reporter
