@@ -10,6 +10,7 @@ node_js:
 # - chmod +x ./cc-test-reporter
 # - "./cc-test-reporter before-build"
 script:
+- npm run dtslint
 - npm run build:src
 - npm run build:lib
 - npm run styleguide:build
