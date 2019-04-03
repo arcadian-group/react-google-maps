@@ -8,7 +8,7 @@ declare module 'react-google-maps' {
     export { default as DirectionsRenderer, DirectionsRendererProps } from 'react-google-maps/lib/components/DirectionsRenderer'
     export { default as FusionTablesLayer, FusionTablesLayerProps } from 'react-google-maps/lib/components/FusionTablesLayer'
     export { default as GoogleMap, GoogleMapProps } from 'react-google-maps/lib/components/GoogleMap'
-    export { default as GroundOverlay, GroundOverlayProps} from 'react-google-maps/lib/components/GroundOverlay'
+    export { default as GroundOverlay, GroundOverlayProps } from 'react-google-maps/lib/components/GroundOverlay'
     export { default as InfoWindow, InfoWindowProps } from 'react-google-maps/lib/components/InfoWindow'
     export { default as KmlLayer, KmlLayerProps } from 'react-google-maps/lib/components/KmlLayer'
     export { default as Marker, MarkerProps } from 'react-google-maps/lib/components/Marker'
@@ -430,6 +430,7 @@ declare module 'react-google-maps/lib/components/OverlayView' {
 
     export interface OverlayViewProps {
         bounds?: google.maps.LatLngBounds | google.maps.LatLngBoundsLiteral
+        // tslint:disable-next-line:no-null-undefined-union
         children?: ReactNode
         getPixelPositionOffset?: (width: number, height: number) => { x?: number, y?: number }
         mapPaneName?: string
