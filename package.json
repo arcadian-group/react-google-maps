@@ -47,7 +47,6 @@
     "withScriptjs"
   ],
   "scripts": {
-    "precommit": "lint-staged",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
     "dtslint": "dtslint types",
@@ -147,5 +146,10 @@
     "rimraf": "^2.6.2",
     "standard-version": "^5.0.2",
     "to-markdown": "^3.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
