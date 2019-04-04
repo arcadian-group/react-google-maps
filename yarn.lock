@@ -631,8 +631,8 @@
     "@types/googlemaps" "*"
 
 "@types/googlemaps@*", "@types/googlemaps@^3.29.2":
-  version "3.30.4"
-  resolved "https://registry.yarnpkg.com/@types/googlemaps/-/googlemaps-3.30.4.tgz#6f3ecd321b89e83b67685588189ece95aecdb4d2"
+  version "3.30.19"
+  resolved "https://registry.yarnpkg.com/@types/googlemaps/-/googlemaps-3.30.19.tgz#359c025e244490b0775826fb216bed093fd66b16"
 
 "@types/markerclustererplus@^2.1.33":
   version "2.1.33"
