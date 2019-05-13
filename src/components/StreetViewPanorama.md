@@ -2,7 +2,7 @@
 
 ```jsx
 const { compose, withProps } = require("recompose");
-const FaAnchor = require("react-icons/lib/fa/anchor");
+import { FaAnchor } from 'react-icons/fa';
 const {
   withScriptjs,
   withGoogleMap,
