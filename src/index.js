@@ -1,3 +1,5 @@
+import 'react-app-polyfill/ie11'; // For IE 11 support
+
 export { default as withScriptjs } from "./withScriptjs"
 
 export { default as withGoogleMap } from "./withGoogleMap"
