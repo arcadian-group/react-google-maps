@@ -638,9 +638,9 @@
     "@types/googlemaps" "*"
 
 "@types/googlemaps@*", "@types/googlemaps@^3.29.2":
-  version "3.30.20"
-  resolved "https://registry.yarnpkg.com/@types/googlemaps/-/googlemaps-3.30.20.tgz#55adff1d0ef96f31148f684a8fdcab8eedb9a842"
-  integrity sha512-cTTLBYt6DNKMi359Tg2QndRUbgxvsOcSlFWBDL3OWI/VP7/od4TD6vrmO8ADYdr5elYF/az0frKXi9bddKeMgA==
+  version "3.36.3"
+  resolved "https://registry.yarnpkg.com/@types/googlemaps/-/googlemaps-3.36.3.tgz#3d3dded3b56f8369b3a6ffafc408473037fb34c7"
+  integrity sha512-VDB9ub0q5hf/Ri/bblc9Q/rzqE95CzZCSWMcpeVzmzr+w2Kef2fRnnr5QZBePhbqNh8GNyfac812A46eqwcWeg==
 
 "@types/markerclustererplus@^2.1.33":
   version "2.1.33"
