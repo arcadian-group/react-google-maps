@@ -131,7 +131,7 @@
     "cheerio": "^1.0.0-rc.2",
     "cross-env": "^5.1.1",
     "dtslint": "github:Microsoft/dtslint#production",
-    "eslint": "^5.16.0",
+    "eslint": "^6.0.1",
     "glob": "^7.1.2",
     "husky": "^2.2.0",
     "isomorphic-fetch": "^2.2.1",
