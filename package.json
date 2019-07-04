@@ -133,7 +133,7 @@
     "dtslint": "github:Microsoft/dtslint#production",
     "eslint": "^6.0.1",
     "glob": "^7.1.2",
-    "husky": "^2.2.0",
+    "husky": "^3.0.0",
     "isomorphic-fetch": "^2.2.1",
     "jscodeshift": "^0.6.3",
     "lint-staged": "^9.0.2",
