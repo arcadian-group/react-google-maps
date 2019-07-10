@@ -652,9 +652,9 @@
     "@types/googlemaps" "*"
 
 "@types/googlemaps@*", "@types/googlemaps@^3.29.2":
-  version "3.36.6"
-  resolved "https://registry.yarnpkg.com/@types/googlemaps/-/googlemaps-3.36.6.tgz#8d930e5e7bcac8769818223665f65004060219ab"
-  integrity sha512-4SYTU3NDJseXspKFvuD818UH2y2t1ncNtrptYrDombU4lgrFH6ZQsNc+m62H//lRHcLZFYD2kNkgh4bxUic0Bg==
+  version "3.36.7"
+  resolved "https://registry.yarnpkg.com/@types/googlemaps/-/googlemaps-3.36.7.tgz#80967727607ac0ab2349ba2d76c069f672a5e5fd"
+  integrity sha512-A/OGp10jQi97mQXDo8Zhh3DutVaIfKGW+fYUg6AkTWEQABybExav4/2fTHTIaEKrxe+ZwCeO0tj6VPvmOKeMvw==
 
 "@types/markerclustererplus@^2.1.33":
   version "2.1.33"
